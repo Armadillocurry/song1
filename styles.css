@@ -1,0 +1,40 @@
+.p ul li{
+    font-family: monospace;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position:relative;
+   }
+   .p ul li a{
+       text-decoration: none;
+       color: #fff;
+       text-transform: uppercase;
+   }
+   .p ul li:after{
+       content: '';
+       height: 3px;
+       width: 0%;
+       background: #ffffff; 
+       position:absolute;
+         left: 0;
+         bottom:-10;
+         transition: 0.5s;
+   }
+   button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center0;
+    margin: 20px 10px;
+   border: none;
+    font-weight: bold;
+
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-family: ;
+}
+.songname{
+    font-family: monospace;
+}
